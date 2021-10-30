@@ -20,6 +20,6 @@ This library helps make simple heartbeat sunction to your application
     void ledon();                                    // turn on LED
     void blink(int delay);                           // blink whith given time
     void blinkasync(int delayon, int delayoff);      // blink with on and off time
-    
+    bool getstate();                                 // returns a state of the led. 
     
 See example folder for a demo.    
