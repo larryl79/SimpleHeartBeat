@@ -8,7 +8,7 @@ This library helps make simple heartbeat sunction to your application
 
 2. Load your program, and put "#include <SimpleHeartBeat.h>", into your first lines in your program without qoutes.
 3. e.g. Put "HeartBeat heartbeat(2);" into your code before setup for name your instane as heartbeat, and use pin 2 for your led.
-4. start using lib even in setup() or loop(). e.g.: hearbeat.ledtoggle();
+4. start using lib even in setup() or loop(). e.g.: heartbeat.ledtoggle();
 
 <H2>Commands</h2>
 
