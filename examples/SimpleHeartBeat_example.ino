@@ -1,4 +1,4 @@
-#include <simpleheartbeat.h>
+#include <SimpleHeartBeat.h>
 
 HeartBeat heartbeat(2);           // create instance named as heartbeat and give pin nuber for the (internal) led.
 
@@ -27,11 +27,11 @@ heartbeat.run();        // old blink example using delay staement, may will be r
  }
 delay(2000);
 
-Serial.println("toggle led state.");
+Serial.println("toggle led state. State before toggle:" + String(heartbeat.getstate()));
 heartbeat.ledtoggle();  // change state of led on->off and off->on
 delay(2000);
 
-Serial.println("toggle led state again.");
+Serial.println("toggle led state again. State before toggle:" + String(heartbeat.getstate()));
 heartbeat.ledtoggle();  // change state of led on->off and off->on
 delay(2000);
 
