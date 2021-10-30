@@ -17,6 +17,7 @@ ledoff	KEYWORD2
 ledon	KEYWORD2
 blink	KEYWORD2
 blinkasync	KEYWORD2
+getstate	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
