@@ -1,6 +1,6 @@
 #include <SimpleHeartBeat.h>
 
-HeartBeat heartbeat(2);           // create instance named as heartbeat and give pin nuber for the (internal) led.
+HeartBeat heartbeat(2);           // create instance named as heartbeat and give pin number for the (internal) led.
 
 void setup(void)
 {
@@ -21,7 +21,7 @@ delay(4000);
 Serial.println("Old style blink with static delay times.");
 for (int i =0; i<50; i++)
  {
-heartbeat.run();        // old blink example using delay staement, may will be removed in the future.
+heartbeat.run();        // old blink example using delay statement, may will be removed in the future.
 //your code in loop
 //end of your code in loop
  }
