@@ -13,13 +13,13 @@ This library helps make simple heartbeat function to your application
 <H2>Commands</h2>
 
     HeartBeat(int pin);                              // constructor, define pin
-    void begin();                                    // doesn't need it really, considering to remove.
+    void begin();                                    // Not really needed, considering to remove.
     void run();                                      // 1x on and 1x off LED, using delay statement with a static time.
     void ledtoggle();                                // toggle state of LED
     void ledoff();                                   // turn off LED
     void ledon();                                    // turn on LED
-    void blink(int delay);                           // blink whith given time
+    void blink(int delay);                           // blink with given time
     void blinkasync(int delayon, int delayoff);      // blink with on and off time
-    bool getstate();                                 // returns a state of the led. 
+    bool getstate();                                 // returns the state of the led. 
     
 See example folder for a demo.    
