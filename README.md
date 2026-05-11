@@ -1,6 +1,6 @@
 <H1>SimpleHeartBeat</h1>
 
-This library helps make simple heartbeat sunction to your application
+This library helps make simple heartbeat function to your application
 
 <h2>Installation</h2>
 
