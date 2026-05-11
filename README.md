@@ -4,10 +4,10 @@ This library helps make simple heartbeat function to your application
 
 <h2>Installation</h2>
 
-1. Simply copy a downloaded master into your Arduino IDE library folder, and Rename it to SimpleHeartBeat form SimpleHeartBeat-master
+1. Simply copy a downloaded master into your Arduino IDE library folder, and Rename it to SimpleHeartBeat from SimpleHeartBeat-master
 
-2. Load your program, and put "#include <SimpleHeartBeat.h>", into your first lines in your program without qoutes.
-3. e.g. Put "HeartBeat heartbeat(2);" into your code before setup for name your instane as heartbeat, and use pin 2 for your led.
+2. Load your program, and put "#include <SimpleHeartBeat.h>", into your first lines in your program without quotes.
+3. e.g. Put "HeartBeat heartbeat(2);" into your code before setup for name your instance as heartbeat, and use pin 2 for your led.
 4. start using lib even in setup() or loop(). e.g.: heartbeat.ledtoggle();
 
 <H2>Commands</h2>
